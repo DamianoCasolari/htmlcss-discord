@@ -109,15 +109,22 @@ button {
 
 header .banner {
     display: block;
-    background-image: url("https://i.pinimg.com/originals/a9/97/51/a99751ac6e165b94030b86c62fa00294.jpg");
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position: center;
     width: 100%;
+    text-align: center;
+    min-height: 90vh;
+    
+    color: white;
 
 
 }
 
 /* Nav selector  */
+
 
 .nav_card {
     padding: 10px 0;
@@ -143,10 +150,15 @@ header .banner {
     justify-content: space-evenly;
 }
 
+/* presentation selector  */
+
+.presentation_card {
+    flex-grow: 1;
+}
 
 #presentation {
     text-align: center;
-    padding: 60px 100px;
+    padding: 60px 80px;
 
 }
 
