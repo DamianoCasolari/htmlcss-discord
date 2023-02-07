@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 
 /* ---------Utility selectors------- */
@@ -15,6 +16,7 @@
     --ds-light-heavenly: #8ea1e1;
     --ds-deep-heavenly: #677cc2;
     --ds-off-white: #f6f6f6;
+    --ds-white: white;
 
 }
 
@@ -45,6 +47,23 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between
+}
+
+.button_style_light {
+    background-color: var(--ds-white);
+    color: var(--ds-deep-dark);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+   
+}
+.button_style_dark {
+    background-color: var(--ds-deep-dark);
+    color: var(--ds-white);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+   
 }
 
 /* #region---------Debug selectors--------- */
@@ -133,6 +152,7 @@ header .banner {
 .logo-discord {
     width: 25%;
     margin: 10px;
+    text-align: left;
 
 }
 
@@ -150,6 +170,10 @@ header .banner {
     justify-content: space-evenly;
 }
 
+.main-menù * {
+    text-decoration: none;
+    color: white;
+}
 /* presentation selector  */
 
 .presentation_card {
@@ -164,6 +188,10 @@ header .banner {
 
 h1 {
     padding: 20px;
+}
+
+#presentation button { 
+    margin: 20px 10px;
 }
 
 /*-------- Main Selector---------  */
