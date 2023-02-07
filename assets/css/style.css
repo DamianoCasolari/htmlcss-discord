@@ -135,7 +135,6 @@ button {
 /* Banner selector */
 
 
-
 header .banner {
     display: block;
     display: flex;
@@ -243,6 +242,18 @@ h2 {
     padding: 20px 0;
     font-size: 30px;
     font-weight: 600;
+}
+
+/* selector wave  */
+
+svg.normal {
+    position: relative;
+    bottom: -5px;
+}
+svg.rotate {
+    position: relative;
+  
+    transform: rotate(180deg);
 }
 
 /* Last different main containe */
