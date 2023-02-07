@@ -33,7 +33,7 @@ button {
     margin: auto;
     max-width: 1170px;
     padding: 10px 0;
-    
+
 
 }
 
@@ -55,15 +55,25 @@ button {
     border: none;
     border-radius: 50px;
     padding: 8px 13px;
-   
+
 }
+
 .button_style_dark {
     background-color: var(--ds-deep-dark);
     color: var(--ds-white);
     border: none;
     border-radius: 50px;
     padding: 8px 13px;
-   
+
+}
+
+.button_style_heavenly {
+    background-color: var(--ds-deep-heavenly);
+    color: var(--ds-white);
+    border: none;
+    border-radius: 50px;
+    padding: 8px 13px;
+
 }
 
 /* #region---------Debug selectors--------- */
@@ -136,7 +146,7 @@ header .banner {
     width: 100%;
     text-align: center;
     min-height: 90vh;
-    
+
     color: white;
 
 
@@ -168,13 +178,14 @@ header .banner {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 .main-menù * {
     text-decoration: none;
     color: white;
 }
+
 /* presentation selector  */
 
 .presentation_card {
@@ -194,7 +205,7 @@ h1 {
     font-weight: 600;
 }
 
-#presentation button { 
+#presentation button {
     margin: 20px 10px;
 }
 
@@ -218,17 +229,17 @@ h1 {
 
 .info>img {
     width: 60%;
-    
+
 }
 
 .info>.description {
     width: 40%;
     padding: 10px;
-    
+
 }
 
 h2 {
-    
+
     padding: 20px 0;
     font-size: 30px;
     font-weight: 600;
@@ -240,6 +251,7 @@ h2 {
 #info_flexcolumn {
     text-align: center;
     padding: 10px 0;
+    margin: 60px 0;
 
 }
 
@@ -247,8 +259,21 @@ h2 {
     padding: 10px;
 }
 
-h3 {
+
+.stars_plus_write {
     margin: 30px 0;
+   }
+
+.Do_you_want_to_start {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 30px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat ;
+
 }
 
 .img_card {
