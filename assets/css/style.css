@@ -168,6 +168,7 @@ header .banner {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .main-menù * {
@@ -182,7 +183,7 @@ header .banner {
 
 #presentation {
     text-align: center;
-    padding: 60px 80px;
+    padding: 10px;
     width: 50%;
 
 }
@@ -203,6 +204,13 @@ h1 {
     color: var(--ds-deep-dark);
 }
 
+#app-main section {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .info {
     width: 70%;
     display: flex;
@@ -210,15 +218,20 @@ h1 {
 
 .info>img {
     width: 60%;
+    
 }
 
 .info>.description {
     width: 40%;
     padding: 10px;
+    
 }
 
 h2 {
-    padding: 10px 0;
+    
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 /* Last different main containe */
